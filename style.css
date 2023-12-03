@@ -1,0 +1,38 @@
+.gradient-background {
+    background: linear-gradient(300deg, white, #93cfe3, #d15140c5);
+    background-size: 180% 180%;
+    animation: gradient-animation 1s ease infinite;
+  }
+
+#profilepic{
+    border-radius: 5%;
+}
+
+.skills{
+    display: grid;
+    height: 370px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.skills > div{
+    background-color: #d15140c5;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.skills > div > img{
+    margin: 30px;
+}
+
+#skillhead{
+    margin-top: 10px;
+}
+
+#gif{
+    border-radius: 10%;
+}
